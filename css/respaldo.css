@@ -1,5 +1,5 @@
 body{
-    background-image: url(../img/local-dg.JPG);
+    background-image: url(../img/local-dg1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -26,11 +26,12 @@ body{
     background-color: orange;
     color: white;
     text-align: center;
-    width: 400px;
+    width: 500px;
     font-size:70px;
     border: solid 5px;
     padding: 2px;
     margin-top: 180px;
+    align-items: center;
 }
 
 .pie{
@@ -41,6 +42,7 @@ body{
 .contenedor{
     text-align: center;
     font-size: 70px;
+    margin-right: 0px;
 }
 
 
@@ -381,7 +383,7 @@ h2{
 
 .pie{
     background-color: orange;
-    margin-top: 100px;
+    margin-right: 1px;
 }
 
 .whatsapp{
@@ -416,3 +418,16 @@ h2{
 }
 
 
+
+
+/*Responsive*/
+
+@media (max-width: 390px) {
+    #h2-2{
+        
+        width: 330px;
+    }
+    .h1-tatuador{
+        width: 250px;
+    }
+}
